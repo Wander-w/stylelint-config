@@ -1,0 +1,14 @@
+.foo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 20px red, 10px 10px 20px red;
+}
+
+@mixin foo-mixin {
+  color: red;
+}
+
+@function foo($value) {
+  @return $value / 2 + px;
+}

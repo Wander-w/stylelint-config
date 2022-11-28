@@ -8,12 +8,13 @@
 pnpm add -D stylelint stylelint-config-jaz
 ```
 
-### Edit `.stylelintrc.js`
+### Edit `.stylelintrc`
 
-```js
-module.exports = {
-  extends: ["stylelint-config-jaz"],
-};
+```json
+{
+  "root": true,
+  "extends": ["./index.js"]
+}
 ```
 
 ### VScode Automatic formatting

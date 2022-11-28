@@ -13,7 +13,7 @@ pnpm add -D stylelint stylelint-config-jaz
 ```json
 {
   "root": true,
-  "extends": ["./index.js"]
+  "extends": ["stylelint-config-jaz"]
 }
 ```
 

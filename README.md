@@ -5,7 +5,7 @@
 ### Install
 
 ```
-pnpm add -D stylelint stylelint-config-jaz
+pnpm install -D stylelint stylelint-config-jaz
 ```
 
 ### Edit `.stylelintrc`

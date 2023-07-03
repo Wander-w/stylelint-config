@@ -1,16 +1,20 @@
 module.exports = {
   extends: [
+    /** 标准规范 */
     "stylelint-config-standard",
-    "stylelint-config-recess-order",
+    /** prettier */
+    "stylelint-prettier/recommended",
+    /** scss */
     "stylelint-config-standard-scss",
+    /** vue */
     "stylelint-config-recommended-vue",
+    "stylelint-config-recommended-vue/scss",
     "stylelint-config-html/html",
     "stylelint-config-html/vue",
-    "stylelint-config-prettier",
+    /** 预设排序规则 */
+    "stylelint-config-clean-order",
   ],
-  plugins: ["stylelint-order"],
   rules: {
-    "order/order": ["custom-properties", "declarations"],
     "declaration-block-trailing-semicolon": null,
     "at-rule-no-unknown": null,
     "selector-class-pattern": null,
@@ -20,7 +24,14 @@ module.exports = {
     "value-no-vendor-prefix": null,
     /** 字体 */
     "font-family-no-missing-generic-family-keyword": null,
-    /** 单引号 */
-    "string-quotes": "single",
+    /** 微信小程序尺寸单位 */
+    "unit-no-unknown": [true, { ignoreUnits: ["rpx"] }],
+    /** 微信小程序最外层 */
+    "selector-type-no-unknown": [true, { ignoreTypes: ["page"] }],
+    /** vue的 :deep() :global() :slotted() */
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { ignorePseudoClasses: ["deep", "global", "slotted"] },
+    ],
   },
 };

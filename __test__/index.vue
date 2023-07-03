@@ -1,6 +1,8 @@
-<template><div>Play</div></template>
+<template>
+  <div>Play</div>
+</template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .foo {
   position: relative;
   width: 200px;

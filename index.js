@@ -20,8 +20,10 @@ module.exports = {
     "selector-class-pattern": null,
     "custom-property-pattern": null,
     "no-descending-specificity": null,
-    /** -webkit- 禁止自动修复-webkit-前缀 */
+    /** 禁止自动修复-webkit-前缀的值 */
     "value-no-vendor-prefix": null,
+    /** 禁止自动修复-webkit-前缀的属性 */
+    "property-no-vendor-prefix":null,
     /** 字体 */
     "font-family-no-missing-generic-family-keyword": null,
     /** 微信小程序尺寸单位 */

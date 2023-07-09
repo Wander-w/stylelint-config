@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/jaz-w/stylelint-config/compare/v0.1.0...v0.1.1) (2023-07-09)
+
+
+### Bug Fixes
+
+* 禁止自动修复-webkit-前缀的属性 ([2fd033a](https://github.com/jaz-w/stylelint-config/commit/2fd033aebf141c616e61d9da1784eac5c06a6dc1))
+
+
+
 # 0.1.0 (2023-07-03)
 
 

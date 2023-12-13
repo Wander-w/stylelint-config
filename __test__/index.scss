@@ -42,3 +42,9 @@
 @function foo($value) {
   @return $value / 2 + px;
 }
+
+@media screen and (max-width: 300px) {
+  .foo {
+    color: red;
+  }
+}

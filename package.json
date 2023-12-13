@@ -38,8 +38,5 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "^3.0.0"
-  },
-  "peerDependencies": {
-    "stylelint": ">=15"
   }
 }

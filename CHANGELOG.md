@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/jaz-w/stylelint-config/compare/v0.1.1...v0.1.2) (2023-12-13)
+
+
+### Bug Fixes
+
+* 依赖更新,修复移动端媒体查询转换规则 ([2891ec6](https://github.com/jaz-w/stylelint-config/commit/2891ec6ccd9f0942475b772d2d87cedbf9719ac9))
+
+
+
 ## [0.1.1](https://github.com/jaz-w/stylelint-config/compare/v0.1.0...v0.1.1) (2023-07-09)
 
 

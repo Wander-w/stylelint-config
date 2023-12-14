@@ -39,6 +39,24 @@ module.exports = {
      * 可选值: 'content' | 'prefix'
      * content 会将媒体查询的 max-width 等转为 >= 这种,部分手机浏览器完全不支持
      */
-    'media-feature-range-notation': 'prefix'
+    "media-feature-range-notation": "prefix",
+
+    /**
+     * 可选值: 'legacy' | 'modern'
+     * legacy:  rgb(255, 0, 0)
+     * modern:  rgb(255 12 12)
+     */
+    "color-function-notation": [
+      "legacy",
+      {
+        ignore: ["with-var-inside"],
+      },
+    ],
+    /**
+     * 可选值: 'number' | 'percentage'
+     * number: 0-1
+     * percentage: 0%-100%
+     */
+    "alpha-value-notation": "number",
   },
 };

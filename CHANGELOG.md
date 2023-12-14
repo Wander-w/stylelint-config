@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/jaz-w/stylelint-config/compare/v0.1.2...v0.1.3) (2023-12-14)
+
+
+### Bug Fixes
+
+* 添加颜色语法规则 ([0d51d26](https://github.com/jaz-w/stylelint-config/commit/0d51d262a85c640a30c07030b44eeb91efeb33fc))
+
+
+
 ## [0.1.2](https://github.com/jaz-w/stylelint-config/compare/v0.1.1...v0.1.2) (2023-12-13)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-jaz",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Stylelint config",
   "private": false,
   "main": "index.js",

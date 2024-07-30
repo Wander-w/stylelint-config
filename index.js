@@ -15,7 +15,6 @@ module.exports = {
     "stylelint-config-clean-order",
   ],
   rules: {
-    "declaration-block-trailing-semicolon": null,
     "at-rule-no-unknown": null,
     "selector-class-pattern": null,
     "custom-property-pattern": null,

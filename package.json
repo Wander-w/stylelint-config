@@ -25,18 +25,21 @@
   },
   "homepage": "https://github.com/jaz-w/stylelint-config",
   "dependencies": {
-    "postcss": "^8.4.24",
-    "postcss-html": "^1.5.0",
-    "prettier": "^2.8.8",
-    "stylelint": "^15.9.0",
-    "stylelint-config-clean-order": "^5.0.1",
+    "postcss": "^8.4.40",
+    "postcss-html": "^1.7.0",
+    "prettier": "^3.3.3",
+    "stylelint-config-clean-order": "^6.1.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recommended-vue": "^1.4.0",
-    "stylelint-config-standard": "^30.0.1",
-    "stylelint-config-standard-scss": "^10.0.0",
-    "stylelint-prettier": "^3.0.0"
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-prettier": "^5.0.2"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^3.0.0"
+    "conventional-changelog-cli": "^5.0.0",
+    "stylelint": "^16.8.1"
+  },
+  "peerDependencies": {
+    "stylelint": ">=16.1.0"
   }
 }

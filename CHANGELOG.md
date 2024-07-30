@@ -1,3 +1,13 @@
+## [0.1.4](https://github.com/jaz-w/stylelint-config/compare/v0.1.3...v0.1.4) (2024-07-30)
+
+
+### Bug Fixes
+
+* update dependencies ([d1e6a1b](https://github.com/jaz-w/stylelint-config/commit/d1e6a1b6862c3dcae5e88af44513a371b34bc3d0))
+* update node version & delete deprecated unknown rule ([590f53b](https://github.com/jaz-w/stylelint-config/commit/590f53b17972dc1f66ec621aec2eded74f6ade7c))
+
+
+
 ## [0.1.3](https://github.com/jaz-w/stylelint-config/compare/v0.1.2...v0.1.3) (2023-12-14)
 
 
